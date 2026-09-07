@@ -1,0 +1,14 @@
+# Artefactos de build generados en runtime (ver CLAUDE.md)
+build/
+compilados/
+*.r
+
+# Catalogo de sistemas y sus respaldos (se generan/actualizan en runtime)
+compilador.csv
+compilador.csv.bak.*
+config/compilador.default.csv
+
+# Directorios de fixtures que dejan las pruebas (tests/TestRunner.p)
+tests/staging_test/
+tests/deploy_test/
+tests/util/

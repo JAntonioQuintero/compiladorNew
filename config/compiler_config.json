@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "targetOpenEdgeVersion": "12.8",
+  "workDir": ".",
+  "allowedExtensions": [".p", ".w", ".cls"],
+  "excludedDirectories": ["util", "Documentacion", "config", "build", ".git"],
+  "stagingDirectory": "build/staging",
+  "deployDirectory": "compilados",
+  "logDirectory": "build/logs",
+  "rules": {
+    "detectV6Frame": true,
+    "requireExplicitOe128": true
+  }
+}
